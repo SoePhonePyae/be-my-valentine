@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>❤️ Be Mine Forever ❤️</title>
+</head>
+<body>
+    <table>
+        <ul>
+            <h1>Hey, Cutie</h1>
+        </ul>
+        <ul>
+            <h1>I love you</h1>
+        </ul>
+        <ul>
+            <h1>Can you be my definition of love?</h1>
+        </ul>
+        <ul>
+            <button class="buttonYes" onclick="location.href='love.html'"> YES </button> <button class="buttonNo" onclick="wrongAnswer()"> NO </button>
+        </ul>
+    </table>
+
+    <script>
+        var i = 1;
+        function wrongAnswer() {
+            if (i == 2) {
+                alert("I knew you'd tease me like this <3")
+            } else if (i == 3) {
+                alert("Enough teasing, miss 😡");
+            } else if (i == 4) {
+                alert("Please say 'Yes' 😔");
+            } else if (i == 5) {
+                alert("Say YES now or else 😡");
+            } else if (i > 5) {
+                alert("I've ran out of threats. Please say 'YES'. Please? 🥺");
+            } else {
+                alert("Wrong Answer. Please choose again!");
+            }
+            i++;
+        }
+    </script>
+</body>
+</html>

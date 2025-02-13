@@ -1,0 +1,51 @@
+body {
+    font: 100%;
+    margin: 20px;
+    padding: 2.5%;
+    line-height: 26px;
+    background-color: #ffc0cb;
+    font-family: 'Sachiko', sans-serif;   
+    color: #fafafa;
+    text-align: center;           
+}
+
+h1 {
+    font-size: 500%;
+}
+
+button {
+    border: none;
+    background: none;
+    padding: 80px 160px;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttonYes {
+    border-radius: 20%;
+    background-color: transparent;
+    color: #6ce0f0;
+}
+
+.buttonYes:hover {
+    border-radius: 45%;
+    background-color: #6ce0f0;
+    color: #fafafa;
+}
+
+.buttonNo {
+    border-radius: 20%;
+    background-color: transparent;
+    color: #f0a56c;
+}
+
+.buttonNo:hover {
+    border-radius: 45%;
+    background-color: #f0a56c;
+    color: #fafafa;
+}
