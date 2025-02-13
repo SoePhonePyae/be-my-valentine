@@ -5,7 +5,7 @@ body {
     line-height: 26px;
     background-color: #ffc0cb;
     font-family: 'Sachiko', sans-serif;   
-    color: #fafafa;
+    color: #f0f0f0;
     text-align: center;           
 }
 
@@ -35,7 +35,7 @@ button {
 .buttonYes:hover {
     border-radius: 45%;
     background-color: #6ce0f0;
-    color: #fafafa;
+    color: #f0f0f0;
 }
 
 .buttonNo {
@@ -47,5 +47,5 @@ button {
 .buttonNo:hover {
     border-radius: 45%;
     background-color: #f0a56c;
-    color: #fafafa;
+    color: #f0f0f0;
 }
